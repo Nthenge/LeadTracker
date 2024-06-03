@@ -30,7 +30,7 @@ function render(leads) {
             </li>
         `
     }
-    ulEl.innerHTML = listItems
+    ulEl.textContent = listItems
 }
 
 deleteBtn.addEventListener("dblclick", function() {
